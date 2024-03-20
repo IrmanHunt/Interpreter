@@ -1,0 +1,33 @@
+on_screen[Игра - угадай число!]
+
+A = 5
+
+C = 1
+
+while True:
+    {
+        on_screen[]
+        on_screen[Введите число: ]
+        B = from_keyboard
+
+        if (B > A):
+        {
+            on_screen[Ваше число больше загаданного!]
+        }
+
+        if (B < A):
+        {
+            on_screen[Ваше число меньше загаданного!]
+        }
+
+        if (B = A):
+        {
+            on_screen[Победа!]
+            on_screen[Количество попыток: [C]]
+            end
+        }
+
+    C = (C + 1)
+    }
+
+end
